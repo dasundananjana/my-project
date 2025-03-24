@@ -1,5 +1,15 @@
-print("Hello, Git!")
-x=2
-y=3
-z=x+y
-print(z)
+marks = int(input("Enter English marks: "))
+
+if marks >= 75:
+    grade = "A"
+elif marks >= 65:
+    grade = "B"
+elif marks >= 55:
+    grade = "C"
+elif marks >= 35:
+    grade = "S"
+else:
+    grade = "F"
+
+print(f"Your grade is: {grade}")
+
